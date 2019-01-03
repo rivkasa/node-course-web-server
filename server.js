@@ -27,13 +27,14 @@ hbs.registerHelper('screamIt', (text) => {
     return text.toUpperCase();
 })
 
+/*
 app.use((req, res, next) => {
     res.render('maintenence.hbs', {
         pageTitle: 'Maintenence Page',
         welcomeMessage: 'We will be right back',
     });
 });
-
+*/
 
 app.get('/', (req, res) => {
     res.render('home.hbs', {
